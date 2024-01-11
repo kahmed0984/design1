@@ -1,0 +1,693 @@
+@font-face{
+	font-family:'TitilliumWeb-Bold';
+	src:url(font/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+@font-face{
+	font-family: 'TitilliumWeb-SemiBold';
+	src:url(font/Titillium_Web/TitilliumWeb-SemiBold.ttf);
+}
+@font-face{
+	font-family: 'TitilliumWeb-Regular';
+	src:url(font/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+@font-face{
+	font-family:'TitilliumWeb-Light';
+	src:url(font/Titillium_Web/TitilliumWeb-Light.ttf);
+}
+@font-face{
+	font-family: 'TitilliumWeb-LightItalic';
+	src:url(font/Titillium_Web/TitilliumWeb-LightItalic.ttf);
+}
+
+
+body{
+	font-family:'TitilliumWeb-Light';
+	/*overflow: hidden; */
+}
+.container{
+	width: 80%;
+	margin:auto;
+}
+.mobile_menu_icon{
+	display: none;
+}
+/* header area start */
+.header_section {
+	background-color: #87509c;
+	overflow:hidden ;
+}
+/* header top start */
+.header_top{
+	overflow: hidden;
+	margin-top: 60px;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.nav{
+	margin-top: 10px;
+	width: 80%;
+	float:left;
+}
+.nav ul{
+	/*** auto margin padding na paoar jonno dite hobe */
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+.nav ul li a{
+	font-family:'TitilliumWeb-Regular';
+	text-decoration: none;
+	padding:5px 21px;
+	color: #eeebf0;
+	transition:.3s;
+	border-radius: 5px;
+}
+.nav ul li a:focus-visible,
+.portfolio_menu ul li a:focus{
+	outline: none;
+}
+.nav ul li a:hover{
+	background-color:#643a79;
+}
+/* header top end */
+/* header content start */
+.header_content{
+	width: 90%;
+	text-align: center;
+	margin:auto;
+	margin-top:100px;
+	margin-bottom: 145px;
+}
+.header_content h2{
+	font-family:'TitilliumWeb-Bold';
+	font-size:43.16px;
+	color:#f7f3ea;
+	margin-bottom: 70px;
+	opacity:85%;
+}
+.header_content a{
+	font-family: 'TitilliumWeb-SemiBold';
+	text-decoration:none;
+	background-color:#eb7d4b;
+	padding: 25px 100px;	
+	color:#fff;
+	font-size: 18px;
+	border-radius:8px;
+	transition: .3s;
+	border-bottom: 1px solid #C86A40;
+	box-shadow: 3px 2px 5px black;
+}
+.header_content a:hover{
+	background-color: #c86a40;
+}
+/* header content start */
+/* header area end */
+
+/* service area start */
+.service_section{
+	background-color: #17c2a4;
+	overflow:hidden;
+}
+/* service top start */
+.service_top{
+	text-align:center;
+	margin-top: 120px;
+}
+.service_top h2{
+	font-family: 'TitilliumWeb-Bold';
+	color:white;
+	font-size: 36px;
+	position:relative;
+}
+.service_top h2:after{
+	content: '';
+	position: absolute;
+	width: 90px;
+	height:5px;
+	background-color:#14a58c;
+	bottom: -20px;
+	left: 50%;
+	transform:translate(-50%);
+	clear: both;
+}
+.service_top p{
+	font-family: 'TitilliumWeb-Regular';
+	font-size:18px;
+	color: #fff;
+	margin: 42px auto 0px;
+	line-height: 22px;
+	opacity: .9;
+	width: 58%;
+}
+/* service top end */
+/* service content start*/
+.service_content{
+	margin: auto;
+}
+.service_box{
+	text-align:center;
+	width: 20%;
+	display: inline-block;
+	margin-left: 15px;
+	margin-bottom: 100px;
+	padding: 15px;
+	float: left;
+}
+.service_box img{
+	height: 100px;
+	padding: 30px;
+}
+.service_box h3{
+	font-family: 'TitilliumWeb-Bold';
+	color:white;
+	font-size: 22px;
+}
+.service_box p{
+	color:#fff;
+	font-size: 16px;
+	line-height: 20px;
+	opacity: .9;
+}
+/* service content end*/
+/* service area end */
+
+
+/* team area start */
+.team_section{
+	background-color: #cce1f0;
+	overflow: hidden;
+	padding: 100px 0px 90px 0px;
+	/*** ay section er uopr nis
+ a ay vabe o namano uthano jay*/
+}
+/* team top start */
+.team_top{
+	text-align:center;
+	color:#222939;
+}
+.team_top h2{
+	font-family: 'TitilliumWeb-Bold';
+	font-size: 36px;
+	position: relative;
+	margin-top: 6px;
+}
+.team_top h2:before{
+	content: '';
+	position: absolute;
+	width:90px;
+	height:5px;
+	background-color: #8f9ea8;
+	bottom: -20px;
+	right: 50%;
+	transform: translate(50%);
+}
+.team_top p{
+	font-family: 'TitilliumWeb-Regular';
+	font-size: 18px;
+	margin:auto;
+	margin-top: 40px;
+	opacity: .9;
+}
+/* team top end */
+/*team content start*/
+.team_content{
+	margin:auto;
+}
+.team_box{
+	width: 20%;
+	display: inline-block;
+	text-align:center;
+	margin-left:15px;
+	margin-top:60px;
+	padding: 15px;
+	float: left;
+}
+.team_box img{
+	width: 150px;
+	height: 150px;
+	border-radius:50%;
+	transition: 1s;
+}
+.team_box img:hover{
+	filter: grayscale(100%);
+	opacity: 80%;
+}
+.team_box h3{
+	font-family: 'TitilliumWeb-Bold';
+	color:#222939;
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+.team_box h5{
+	font-family: 'TitilliumWeb-Regular';
+	color:#17C2A4;
+	font-size: 16px;
+	margin-top: 0px;
+	line-height: 20px;
+}
+.team_box p{
+	color:#222939;
+	font-size: 16px;
+	opacity: .9;
+	line-height: 20px;
+}
+.team_icon{
+	margin: 30px 0px 0px 0px;
+}
+.team_icon i{
+	
+	width: 20px !important;
+	height:18px ;
+	margin-left: 2px;
+	border-radius: 50%;
+	padding: 10px;
+	background-color: #35719A;
+	color: #fff;
+}
+.team_icon i:hover{
+	background-color: #CCE1F0;
+	color:#35719A;
+	transition: .3s;
+}
+/*team content start*/
+/* team area end */
+
+
+/* skill area start */
+.skill_section{
+	background-color: white;
+	overflow: hidden;
+	padding: 100px 0px 90px 0px;
+}
+.skill_header{
+	text-align:center;
+	color:#3c4761;
+}
+.skill_header h2{
+	font-family: 'TitilliumWeb-Bold';
+	text-transform: uppercase;
+	position: relative;
+	font-size: 36px;
+	margin:0px auto;
+}
+.skill_header h2:after{
+	content: '';
+	position: absolute;
+	width: 90px;
+	height:5px;
+	background-color:#afd5ea;
+	bottom: -20px;
+	left: 50%;
+	transform:translate(-50%);
+	clear: both;
+}
+.skill_header p{
+	font-family: 'TitilliumWeb-Regular';
+	opacity:.9;
+	margin: 40px auto;
+	font-size: 18px;
+	width: 58%;
+}
+.skill_content{
+
+}
+.skill_box{
+	text-align:center;
+	width: 20%;
+	margin-left: 15px;
+	margin-top:60px;
+	padding: 15px;
+	float: left;
+}
+.skill_box img{
+	width: 150px;
+	height: 150px;
+}
+.skill_box h3{
+	font-family: 'TitilliumWeb-Bold';
+	text-transform: uppercase;
+	color:#3c4761;
+}
+/* skill area end */
+
+
+/* portfolio area start */
+.portfolio_section{
+	background-color: #ffdd99;
+	overflow: hidden;
+	padding: 60px 0px 60px 0px;
+}
+/* portfolio header start */
+.portfolio_header{
+	text-align: center;
+	color: #393939;
+}
+.portfolio_header h2{
+	font-family: 'TitilliumWeb-Bold';
+	font-size: 36px;
+	position: relative;
+}
+.portfolio_header h2:before{
+	content: '';
+	width: 90px;
+	height: 5px;
+	position: absolute;
+	background-color: #e5c37f;
+	bottom: -20px;
+	right: 50%;
+	transform: translate(50%);
+}
+.portfolio_header p{
+	font-family: 'TitilliumWeb-Regular';
+	opacity: .9;
+	font-size: 18px;
+	line-height: 21px;
+	margin:auto;
+	padding-top: 12px;
+	width: 58%;
+}
+.portfolio_menu{
+	margin:40px auto;
+}
+.portfolio_menu ul{
+	margin:0px;
+	padding: 0px;
+}
+.portfolio_menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.portfolio_menu ul li a{
+	font-family: 'TitilliumWeb-SemiBold';
+	text-decoration:none;
+	color: #393939;
+	background-color: #e8be6b;
+	padding: 12px 30px;
+	margin-left: 8px;
+	border-radius: 7px;
+	border-bottom: 1px solid black;
+}
+.portfolio_menu ul li a:hover{
+	background-color: #fff;
+	color: #FFAA19;
+	transition:.3s;
+}
+/* portfolio header end */
+/* portfolio content start */
+.portfolio_content{
+	margin: 75px 0px 90px 0px;
+}
+.portfolio_box{
+	width: 45%;
+	float: left;
+	text-align:center;
+	margin-left: 20px;
+	padding: 15px;
+}
+/*** img a width 100% nadile width payna*/
+.portfolio_box img{
+	width: 100%;
+}
+.portfolio_box h3{
+	font-family: 'TitilliumWeb-Regular';
+	color: #393939;
+	opacity: .9;
+}
+/*** clear both dite hoy .jey tar 
+vitore dhuke seytate */
+.portfolio_btn{
+	text-align: center;	
+	clear: both;
+	padding: 70px 0px;
+}
+.portfolio_btn a{
+	font-family: 'TitilliumWeb-SemiBold';
+	text-decoration:none;
+	padding: 28px 86px;
+	background-color: #17c2a4;
+	color: #FFF;
+	border-radius: 8px;
+	transition:.3s;
+	box-shadow: 3px 2px 5px black;
+}
+.portfolio_btn a:hover{
+	background-color:#14a58c;
+}
+/* portfolio content end */
+/* portfolio area end */
+
+
+/* testimonial area start */
+.testimonial_section{
+	background-color: #d74680;
+	overflow: hidden;
+	padding: 90px 0px 65px 0px;
+}
+.testimonial_header{
+	text-align: center;
+	color: white;
+}
+.testimonial_header h2{
+	font-family: 'TitilliumWeb-Bold';
+	font-size: 36px;
+	position: relative;
+	margin-top: 0px;
+}
+.testimonial_header h2:before{
+	content: '';
+	width: 90px;
+	height: 5px;
+	position: absolute;
+	background-color: #b73c6d;
+	bottom: -20px;
+	right: 50%;
+	transform: translate(50%);
+}
+.testimonial_header p{
+	font-family: 'TitilliumWeb-Regular';
+	font-size: 18px;
+	opacity: .9;
+	margin:auto;
+	padding-top: 8px;
+}
+/* testimonial content start */
+.testimonial_content{
+}
+.testimonial_box{
+	width: 45%;
+	float: left;
+	margin: 70px 25px 20px 25px;
+}
+.testimonial_box_img{
+	width: 30%;
+	float: left;
+}
+.testimonial_box_img img{
+	width:100px;
+	height:100px ;
+	border-radius: 50%;
+}
+.testimonial_box_content{
+	width: 65%;
+	float: left;
+}
+.testimonial_box_content p{
+	/*font-family: 'TitilliumWeb-LightItalic'; */
+	color: white;
+	opacity: .9;
+	font-size: 18px;
+	font-style:italic;
+}
+.testimonial_box_content h2{
+	font-family: 'TitilliumWeb-Bold';
+	color:white;
+	text-transform: ;
+	margin:auto;
+}
+.testimonial_box_content h5{
+	font-family: 'TitilliumWeb-Regular';
+	color:yellow;
+	opacity: .7;
+	margin:auto;
+}
+/* testimonial area end */
+
+
+/* contact area start */
+.contact_section{
+	background-color: #3c5499;
+	overflow: hidden;
+	padding: 90px 0px;
+}
+.contact_header{
+}
+.contact_header h2:before{
+	background-color: #273a71;
+}
+.contact_header p{
+}
+/* contact form start */
+form{
+	width: 80%;
+	margin: auto;
+	margin-top: 77px;
+
+}
+.first_colum{
+	width: 100%;
+}
+.first_half{
+	float:left;
+	width: 48%;
+	position: relative;
+}
+.first_half input{
+	width: 100%;
+	background-color:#273a71;
+	border:none;
+	border-radius:5px;
+	height: 55px;
+	padding: 0px;
+	color:white;
+	text-transform: capitalize;
+}
+input:focus-visible,textarea:focus{
+	outline: none;
+	
+}
+.first_half label{
+	font-family: 'TitilliumWeb-Regular';
+	color:white;
+	opacity: .9;
+	position: absolute;
+	top: 18px;
+	left: 18px;
+}
+.first_half label span{
+	color:red;
+	opacity: .7;
+}
+.second_half{
+	float:left;
+	width: 48%;
+	margin-left: 32px;
+	position: relative;
+}
+.second_half input{
+	width: 100%;
+	background-color:#273a71;
+	border:none;
+	border-radius:5px;
+	height: 55px;
+	padding: 0px;
+	color:white;
+	text-transform: lowercase;
+
+}
+.second_half label{
+	font-family: 'TitilliumWeb-Regular';
+	color:white;
+	opacity: .9;
+	position: absolute;
+	top: 18px;
+	left: 18px;
+}
+.second_half label span{
+	color:red;
+	opacity: .7;
+}
+.second_colum{
+	padding-top: 27px;
+	clear: both;
+	position: relative;
+}
+.second_colum textarea{
+	background-color:#273a71;
+	border:none;
+	border-radius:5px;
+	padding: 0px;
+	width: 100%;
+	height: 200px;
+	color:white;
+
+}
+.second_colum label{
+	font-family: 'TitilliumWeb-Regular';
+	color:white;
+	opacity: .9;
+	position: absolute;
+	top: 44px;
+	left: 18px;
+}
+.second_colum label span{
+	color:red;
+	opacity: .7;
+}
+.cantact_btn{
+	text-align: center;
+	margin-top: 50px;
+}
+.cantact_btn input{
+	font-family: 'TitilliumWeb-SemiBold';
+	padding: 25px 89px;
+	background-color: #30bae7;
+	color: #FFF;
+	border-radius: 8px;
+	border:none;
+	font-size: 18px;
+	opacity: .9;
+	transition:.3s;
+	box-shadow: 3px 2px 5px black;
+}
+.cantact_btn input[type='submit']:hover{
+	background-color: #299ec5;
+	color: #d8dff0;
+}
+/* contact form end */
+/* contact area end */
+
+
+.line_brack hr{
+	padding: 0px;
+	margin:0px;
+}
+
+
+/* footer area start*/
+footer{
+	overflow: hidden;
+	background-color: #344b8e;
+}
+footer ul{
+	margin:0px;
+	padding:0px ;
+}
+footer li{
+	list-style: none;
+	display: inline-block;
+}
+footer ul li a{
+	font-family: 'TitilliumWeb-SemiBold';
+	text-decoration: none;
+	float: left;
+	color: #fff;
+	opacity: 1;
+	margin: 25px 35px;
+	font-size: 20px;
+}
+footer ul li a:hover{
+	color: #30bae7;
+	transition: .3s;
+}
+/* footer area end */
+
+
+/*****Alhumdullah*****/
+/*****Alhumdullah*****/
+/*****Alhumdullah*****/

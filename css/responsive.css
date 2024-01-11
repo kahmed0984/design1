@@ -1,0 +1,454 @@
+@media screen and (max-width: 1200px){
+	.container {
+	    width: 85%;
+	    margin: auto;
+	}
+	.portfolio_box{
+		margin-left: 19px;
+		padding: 13px;
+	}
+	.testimonial_box_content{
+		width: 70%;
+	}
+	.testimonial_box{
+		margin: 70px 23px 20px 22px;
+	}
+	.second_half{
+		margin-left: 29px;
+	}
+	footer ul li a{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.container{
+		width: 90%;
+		margin:auto;
+	}
+	.header_content h2{
+		font-size: 35px;
+	}
+	.service_box{
+		margin-left: 14px;
+	}
+	.team_box{
+		margin-left: 14px;
+	}
+	.team_icon i{
+		padding: 8px;
+	}
+	.skill_box{
+		margin-left: 14px;
+	}
+	.portfolio_box{
+		margin-left: 14px;
+	}
+	.testimonial_box{
+		margin: 70px 20px 20px 24px;
+	}
+	.second_half{
+		margin-left: 28px;
+	}
+	footer ul li a{
+		margin: 25px 33px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.nav{
+		display: none;
+		float: right;
+	}
+	.nav ul li{
+		display: block;
+	}
+	.nav ul li a{
+		height: auto;
+		width: 100px;
+		display:inline-block;
+		text-align: left;
+		margin: 3px 0px;
+	}
+	.mobile_menu_icon{
+		display: block;
+		float: right;
+		color: #fff;
+		font-size: 22px;
+		cursor: pointer;
+		transition: .3s;
+	}
+	.mobile_menu_icon:hover{
+		color:#411E53;
+	}
+	.container {
+    	width: 95%;
+    	margin: auto;
+	}
+	.logo{
+		margin-left: 45px;
+	}
+	.mobile_menu_icon{
+		margin-right: 45px;
+	}
+	.header_content h2{
+		font-size: 32px;
+	}
+	.header_content a{
+		padding: 20px 80px;
+		font-size: 16px;
+	}
+
+	/*service*/
+	.service_top{
+		margin-top: 80px;
+	}
+	.service_top h2{
+		font-size: 31px;
+	}
+	.service_top p{
+		font-size: 15px;
+	}
+	.service_box{
+		margin-bottom: 60px;
+		margin-left: 4px;
+	}
+	.service_box img{
+		height: 80px;
+		padding: 15px;
+	}
+	.service_box h3{
+		font-size: 17px;
+	}
+	.service_box p{
+		font-size: 13px;
+		line-height: 15px;
+	}
+	/*team*/
+	.team_section{
+		padding: 70px 0px 60px 0px;
+	}
+	.team_top h2{
+		font-size: 28px;
+	}
+	.team_top p{
+		font-size: 15px;
+	}
+	.team_box{
+		margin-left: 4px;
+		padding: 0px;
+		width: 24%;
+	}
+	.team_box img{
+		width: 110px;
+		height: 110px;
+	}
+	.team_box h3{
+		font-size: 18px;
+	}
+	.team_box h5{
+		font-size: 14px;
+		line-height: 15px;
+		margin-bottom: 10px;
+	}
+	.team_box p{
+		line-height: 15px;
+		font-size: 13px;
+	}
+	.team_icon i{
+		width: 15px !important;
+		height: 15px;
+		padding: 7px;
+	}
+
+	/*skill*/
+	.skill_section{
+		padding: 70px 0px 60px 0px;
+	}
+	.skill_header h2{
+		font-size: 28px;
+	}
+	.skill_header  p{
+		width: 80%;
+		font-size: 15px;
+	}
+	.skill_box{
+		margin-left: 4px;
+		margin-top: 35px;
+	}
+	.skill_box img{
+		width: 120px;
+		height: 120px;
+	}
+	.skill_box h3{
+		font-size: 16px;
+	}
+
+	/*portfolio*/
+	.portfolio_header  h2{
+		font-size: 28px;
+	}
+	.portfolio_header   p{
+		width: 80%;
+		font-size: 15px;
+	}
+	.portfolio_menu ul li a{
+		padding: 8px 25px;
+		margin-left: 5px;
+		font-size: 13px;
+	}
+	.portfolio_box{
+		margin-left: 8px;
+	}
+	.portfolio_box h3{
+		font-size: 15px;
+	}
+	.portfolio_btn  a{
+		padding: 20px 60px;
+		font-size: 16px;
+	}
+	/*about*/
+	.testimonial_header   h2{
+		font-size: 28px;
+	}
+	.testimonial_header    p{
+		width: 80%;
+		font-size: 15px;
+	}
+	.testimonial_box{
+		margin: 70px 17px 20px 17px;
+	}
+	.testimonial_box_img{
+		width: 100%;
+	}
+	.testimonial_box_content{
+		width: 100%;
+	}
+	.testimonial_box_content p{
+		font-size: 14px;
+	}
+	.testimonial_box_content h2{
+		font-size: 18px;
+	}
+	.testimonial_box_content h5{
+		font-size: 13px;
+	}
+	/*contact*/
+	.contact_section{
+		padding: 70px 0px;
+	}
+	.second_half{
+		margin-left: 21px;
+	}
+	.cantact_btn input{
+		padding: 20px 75px;
+		font-size: 15px;
+	}
+	footer ul li a{
+		margin: 20px 21px;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.container{
+		width: 100%;
+		margin:auto;
+	}
+	.logo{
+		margin-left: 40px;
+	}
+	.mobile_menu_icon{
+		margin-right: 40px;
+	}
+	.header_content h2{
+		font-size: 22px;
+	}
+	.header_content a{
+		font-size: 15px;
+		padding: 13px 60px;
+	}
+	/*service*/
+	.service_top{
+		margin-top: 90px;
+	}
+	.service_top h2{
+		font-size: 30px;
+	}
+	.service_top p{
+		font-size: 15px;
+		width: 95%;
+	}
+	.service_box{
+		margin-bottom: 75px;
+		padding: 10px;
+	}
+	.service_box img{
+		height: 50px;
+		padding: 10px;
+	}
+	.service_box h3{
+		font-size: 16px;
+	}
+	.service_box p{
+		font-size: 13px;
+		line-height: 15px;
+	}
+
+	/*team*/
+	.team_section{
+		padding: 85px 0px 75px 0px;
+	}
+	.team_top h2{
+		font-size: 29px;
+	}
+	.team_top p{
+		font-size: 15px;
+		width: 90%;
+	}
+	.team_box{
+		padding: 10px;
+	}
+	.team_box img{
+		width: 80px;
+		height: 80px;
+	}
+	.team_box h3{
+		font-size: 16px;
+	}
+	.team_box h5{
+		margin: 0px;
+		font-size: 14px;
+	}
+	.team_box p{
+		font-size: 13px;
+		line-height: 15px;
+	}
+	.team_icon i{
+		width: 10px !important;
+    	height: 10px;
+    	padding: 4px;
+	}
+
+	/*skill*/
+	.skill_section{
+		padding: 85px 0px 70px 0px;
+	}
+	.skill_header h2{
+		font-size: 29px
+	}
+	.skill_header p{
+		font-size: 14px;
+		width: 90%;
+	}
+	.skill_box{
+		padding: 10px;
+		margin-top: 20px;
+	}
+	.skill_box img{
+		width: 80px;
+		height: 80px;
+	}
+	.skill_box h3{
+		font-size: 14px;
+	}
+
+	/*portfolio*/
+	.portfolio_header h2{
+		font-size: 29px;
+	}
+	.portfolio_header p{
+		font-size: 14px;
+		width: 90%
+	}
+	.portfolio_menu ul li a{
+		padding: 4px 15px;
+		margin-left: 2px;
+		border-radius: 5px;
+		font-size: 12px;
+	}
+	.portfolio_box{
+		width: 42%;
+	}
+	.portfolio_box h3{
+		font-size: 14px;
+	}
+	.portfolio_btn a{
+		padding: 15px 45px;
+	}
+	/*about*/
+	.testimonial_header h2{
+		font-size: 28px;
+	}
+	.testimonial_header p{
+		font-size: 16px;
+	}
+	.testimonial_box{
+		width: 41%;
+		margin: 45px 18px 20px 25px;
+	}
+	.testimonial_box_img{
+		width: 100%;
+		text-align: center;
+	}
+	.testimonial_box_img img{
+		width: 80px;
+		height: 80px;
+	}
+	.testimonial_box_content{
+		width: 100%;
+		text-align: center;
+	}
+	.testimonial_box_content p{
+		font-size: 15px;
+	}
+	.testimonial_box_content h2{
+		font-size: 18px;
+	}
+	.testimonial_box_content h5{
+		font-size: 14px;
+	}
+
+	/*form*/
+	.contact_section{
+		padding: 60px 0px;
+	}
+	.testimonial_header p{
+		font-size: 14px;
+		width: 90%;
+	}
+	form{
+		margin-top: 50px;
+	}
+	.second_half{
+		margin-left: 15px;
+	}
+	.first_half input,
+	.second_half input{
+		height: 40px;
+	}
+	.first_half label,
+	.second_half label{
+		top: 10px;
+		font-size: 13px;
+	}
+	.second_colum textarea{
+		height: 150px;
+	}
+	.second_colum label{
+		top: 35px;
+		font-size: 13px;
+	}
+	.cantact_btn input{
+		padding: 17px 60px;
+		font-size: 16px;
+	}
+	/**/
+	footer ul li a{
+		font-size: 10px;
+		margin: 10px 15px;
+	}
+}
+/****Made by Kawsar Ahmed****/
+/****Made by Kawsar Ahmed****/
+/****Made by Kawsar Ahmed****/
